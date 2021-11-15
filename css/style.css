@@ -81,7 +81,7 @@ li a{
 }
 
 /* MAIN CONTENT */
-main h4{
+.color-light-gray{
     color: lightgray;
 }
 .col
@@ -111,6 +111,7 @@ main h4{
     background-size: cover;
     border-radius: 15px;
     position: relative;
+    margin-bottom: 30px;
 
 }
 .image-jar
@@ -127,4 +128,16 @@ main h4{
 {
     background-image: url("../img/img-2.jpg");
     width: 100%;
+}
+.main-text h4
+{
+    margin-bottom: 20px;
+}
+/* FOOTER */
+footer{
+    text-align: center;
+}
+footer span{
+    color: red;
+    font-size: 30px;
 }
