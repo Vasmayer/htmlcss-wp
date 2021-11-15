@@ -63,16 +63,15 @@ li a{
     position: relative;
 
 }
-#overlay
+.overlay
 {
     border-radius: 15px;
     background-color: rgba(0,0,0,0.2);
     position: absolute;
-    display: block;
-    height: 500px;
+    height: 100%;
     width: 100%;
 }
-#overlay div
+.overlay .jumbotron-text
 {
     position: absolute;
     width: 60%;
@@ -89,12 +88,43 @@ main h4{
 {
     float: left;
 }
-
-.col-side
+.col-left
 {
-    width: 15%;
+    width: 20%; 
+}
+.col-right
+{
+    width: 20%;
+       
 }
 .col-center
 {
-    width: 70%;
+    width: calc(60% - 40px);
+    margin:0 20px;
+}
+.main-image
+{
+    float: left;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+
+}
+.image-jar
+{
+    background-image: url("../img/img-1.jpg");
+    width: 100%;
+}
+.image-coffee
+{
+    background-image: url("../img/banner-2.jpg");
+    width: 100%;
+}
+.image-light
+{
+    background-image: url("../img/img-2.jpg");
+    width: 100%;
 }
