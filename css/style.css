@@ -12,7 +12,17 @@
     width: 1200px;
     margin: auto;
 }
-
+/* UTILITIES */
+.mt-40
+{
+    margin-top:40px;
+}
+.clearfix::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
 /*HEADER*/
 
 header
@@ -24,11 +34,7 @@ header img{
     width: 50%;
 
 }
-/* UTILITIES */
-.mt-40
-{
-    margin-top:40px;
-}
+
 /*NAVBAR*/
 
 li
@@ -73,4 +79,22 @@ li a{
     bottom:40px;
     left:40px;
     color: white;
+}
+
+/* MAIN CONTENT */
+main h4{
+    color: lightgray;
+}
+.col
+{
+    float: left;
+}
+
+.col-side
+{
+    width: 15%;
+}
+.col-center
+{
+    width: 70%;
 }
