@@ -43,4 +43,27 @@ li a{
 }
 
 /* JUMBOTRON */
+#jumbotron
+{
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
 
+}
+#overlay
+{
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    display: block;
+    height: 500px;
+    width: 100%;
+
+}
